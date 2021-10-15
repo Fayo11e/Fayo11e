@@ -1,0 +1,70 @@
+body{
+    text-decoration: none;
+     content-box : border-box;
+     text-align: center;
+}
+header{
+    background-image: url(../exo5/img/bg.jpg);
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    background-position: center bottom;
+    background-color: #96b011;
+    
+    
+}
+.ribbon{
+    width: 120px;
+    float: right;
+    position:absolute;
+    right: 8px;
+}
+#promo{
+    background-color: rgba(0, 0, 0, 0,1);
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+header nav a{
+    color: white;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-left: 100px;
+    padding: 10px;
+}
+.panier{
+    float: right;
+}
+h2{
+    color: yellowgreen;
+    font-size: x-large;
+}
+article img{
+    display: b
+    width: 25%;
+    float: right;
+}
+article{
+    display: inline-block;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+#logopanier{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    align-items: center;
+    text-decoration: none;
+    
+}
+#panier a{
+    text-decoration: none;
+    color: white;   
+}
+#panier .fa{
+    border: solid 5px;
+}
